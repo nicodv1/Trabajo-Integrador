@@ -20,8 +20,8 @@
         max-width: 40%;
     }
 
-    .col-lg-4 {
-        margin-bottom: 25px;
+    .row-cols-md-3>* {
+        width:auto;
     }
 
     .btn-outline-light,
@@ -87,6 +87,10 @@
 
     .categories_container {
         margin-bottom: 50px;
+    }
+    
+    .row-cols-md-3>* {
+        width:auto;
     }
 
     .form_container {
@@ -291,7 +295,7 @@ main {
 }
 
 .row-cols-md-3>*{
-    width: 23%;
+    width: 100%;
     align-items: center;
     display: flex;
 }
