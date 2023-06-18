@@ -20,8 +20,10 @@
         max-width: 40%;
     }
 
-    .row-cols-md-3>* {
-        width:auto;
+    .row-cols-md-3>*{
+        width: 100%;
+        align-items: center;
+        display: flex;
     }
 
     .btn-outline-light,
@@ -89,8 +91,10 @@
         margin-bottom: 50px;
     }
     
-    .row-cols-md-3>* {
-        width:auto;
+    .row-cols-md-3>*{
+        width: 23%;
+        align-items: center;
+        display: flex;
     }
 
     .form_container {
@@ -275,6 +279,10 @@ main {
     border-color: #28a745;
     width: 100%;
 }
+.ticket-btn{
+    width: 49%;
+
+}
 
 .marketing-title-cont {
     margin: 0px auto;
@@ -295,7 +303,7 @@ main {
 }
 
 .row-cols-md-3>*{
-    width: 100%;
+    width: 23%;
     align-items: center;
     display: flex;
 }
@@ -385,6 +393,119 @@ textarea.form-control {
 form button[type='submit'] {
     display: block;
     margin: auto;
+}
+
+
+.box-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.ticket-box-container {
+    display: inline-block;
+}
+
+.ticket-box {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    margin: 3px;
+    padding: 25px;
+    border: 1.5px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.student {
+    border-color: green;
+}
+
+.trainee {
+    border-color: #00adff;
+}
+
+.junior {
+    border-color: orange;
+}
+
+.clarification {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+}
+
+.tickets-title {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tickets-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.medimum {
+    width: 48%;
+}
+
+.medimum p {
+    margin: 0;
+}
+
+.form-control {
+    appearance: auto;
+}
+
+.tickets-inputs .form-control {
+    margin: 10px 0;
+}
+
+.medimum .form-control {
+    margin-top: 0;
+}
+
+select {
+    height: 38px;
+}
+
+.total-price-container {
+    height: 50px;
+    background: #b4ccee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+
+.total-price-container p {
+    font-size: 18px;
+    margin: 0;
+}
+
+#price {
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.discount {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.form-buttons {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
 }
 
 footer {
